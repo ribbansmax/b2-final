@@ -22,7 +22,11 @@
         "lines": [
           1,
           1,
-          2,
+          0,
+          null,
+          null,
+          1,
+          1,
           null,
           null
         ]
@@ -49,16 +53,8 @@
           1,
           null
         ]
-      },
-      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/hospital.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1610730508
+    "timestamp": 1610731243
   }
 }
