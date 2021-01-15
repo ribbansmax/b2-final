@@ -19,7 +19,6 @@ RSpec.describe "Surgery Show page" do
 
       visit surgery_path(surgery)
 
-      save_and_open_page
       within "#other-surgeries" do
         expect(page).to have_content(same_day.title)
         expect(page).not_to have_content(day_before.title)
