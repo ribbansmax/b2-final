@@ -1,0 +1,4 @@
+<section id="surgery-<%=surgery.id%>">
+  <%= link_to surgery.title, surgery_path(surgery)%>
+  <%= render surgery.doctors %>
+</section>

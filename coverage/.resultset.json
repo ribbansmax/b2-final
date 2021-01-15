@@ -17,8 +17,48 @@
           1,
           null
         ]
+      },
+      "/Users/magicmax/turing/mod2/ic/b2-final/app/controllers/surgeries_controller.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/magicmax/turing/mod2/ic/b2-final/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/operation.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/doctor.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/hospital.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1610729604
+    "timestamp": 1610730508
   }
 }
