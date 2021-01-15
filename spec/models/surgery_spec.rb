@@ -7,6 +7,16 @@ describe Surgery, type: :model do
     it {should have_many(:doctors).through(:operations)}
   end
 
+  describe "class methods" do
+    it "Can organize by operating room" do
+      surgery = FactoryBot.create(:surgery, operating_room: 3)
+      surgery2 = FactoryBot.create(:surgery, operating_room: 3)
+      surgery3 = FactoryBot.create(:surgery, operating_room: 4)
+
+      expect(Surgery.all.by_operating_room[3]).to eq([surgery.title, surgery2.title])
+    end
+  end
+
   describe "instance methods" do
     it "can provide same day surgeries" do
       surgery = FactoryBot.create(:surgery, week_day: 3)

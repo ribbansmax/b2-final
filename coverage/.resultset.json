@@ -1,17 +1,12 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/surgery.rb": {
+      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/doctor.rb": {
         "lines": [
           1,
           1,
           1,
-          null,
           1,
-          null,
-          1,
-          4,
-          null,
           null
         ]
       },
@@ -22,39 +17,16 @@
           null
         ]
       },
-      "/Users/magicmax/turing/mod2/ic/b2-final/app/controllers/surgeries_controller.rb": {
+      "/Users/magicmax/turing/mod2/ic/b2-final/spec/models/hospital_spec.rb": {
         "lines": [
           1,
-          1,
-          0,
-          null,
           null,
           1,
-          4,
           null,
-          null
-        ]
-      },
-      "/Users/magicmax/turing/mod2/ic/b2-final/app/controllers/application_controller.rb": {
-        "lines": [
           1,
-          null
-        ]
-      },
-      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/operation.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/doctor.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
+          2,
+          2,
+          null,
           null
         ]
       },
@@ -66,29 +38,85 @@
           null
         ]
       },
-      "/Users/magicmax/turing/mod2/ic/b2-final/app/controllers/operations_controller.rb": {
+      "/Users/magicmax/turing/mod2/ic/b2-final/spec/models/operation_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/operation.rb": {
         "lines": [
           1,
           1,
           1,
-          1,
+          null
+        ]
+      },
+      "/Users/magicmax/turing/mod2/ic/b2-final/spec/models/surgery_spec.rb": {
+        "lines": [
           1,
           null,
-          null,
           1,
-          null,
-          1,
-          2,
-          2,
-          null,
           null,
           1,
           2,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/magicmax/turing/mod2/ic/b2-final/app/models/surgery.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          2,
+          null,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1610735118
+    "timestamp": 1610737133
   }
 }

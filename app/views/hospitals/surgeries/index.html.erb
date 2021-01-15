@@ -1,0 +1,6 @@
+<% @surgeries.by_operating_room.each do |room, surgeries| %>
+  Operating Room #<%= room%>
+  <% surgeries.each do |surgery|%>
+    surgery
+  <% end%>
+<% end %>
