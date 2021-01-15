@@ -24,5 +24,18 @@ RSpec.describe "Surgery Show page" do
         expect(page).not_to have_content(day_before.title)
       end
     end
+
+    it "a way to add a doctor to this surgery" do
+      surgery = FactoryBot.create(:surgery)
+      hospital = FactoryBot.create(:hospital)
+      doctor = FactoryBot.create(:doctor, hospital: hospital)
+
+      visit surgery_path(surgery)
+
+      fill_in("operation[name]", with: doctor.name)
+      click_button "Add Doctor"
+
+      expect(page).to have_content(doctor.name)
+    end
   end
 end
