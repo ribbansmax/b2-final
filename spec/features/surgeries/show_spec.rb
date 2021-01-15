@@ -11,8 +11,19 @@ RSpec.describe "Surgery Show page" do
       expect(page).to have_content("Operating Room: ##{surgery.operating_room}")
     end
 
-    xit "other surgeries on this day" do
+    it "other surgeries on this day" do
+      surgery = FactoryBot.create(:surgery, week_day: 3)
 
+      same_day = FactoryBot.create(:surgery, week_day: 3)
+      day_before = FactoryBot.create(:surgery, week_day: 2)
+
+      visit surgery_path(surgery)
+
+      save_and_open_page
+      within "#other-surgeries" do
+        expect(page).to have_content(same_day.title)
+        expect(page).not_to have_content(day_before.title)
+      end
     end
   end
 end

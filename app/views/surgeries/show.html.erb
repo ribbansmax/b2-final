@@ -1,2 +1,6 @@
 <%= render @surgery %>
 Operating Room: #<%= @surgery.operating_room%>
+<section id="other-surgeries">
+  Other surgeries happening this day of the week:
+  <%= render @surgery.same_day_surgeries %>
+</section>
